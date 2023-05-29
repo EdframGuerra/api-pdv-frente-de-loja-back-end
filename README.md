@@ -1,9 +1,18 @@
-# desafio-backend-05-pdv
-![](https://i.imgur.com/xG74tOh.png)
+<h2 align="center"> 
+	🚀 PDV - Frente de Loja 🚀
+</h2>
 
-# Desafio Módulo 5 - Backend
+## 💻 Sobre o projeto
+ Desafio final de conclusão do Curso de Desenvolvimento de Software com foco em Back-end. O objetivo é criar uma API para um PDV (Frente de Caixa)
 
-Seja bem vindo(a) ao desafio do módulo 5.
+ ![](https://i.imgur.com/xG74tOh.png)
+
+## 💡 Pré-requisitos
+ - O primeiro passo é instalar o [**Git**](https://git-scm.com) em seu computador caso você ainda não o tenha. 
+ - Os pacotes que iremos utilizar durante o desenvolvimento desse projeto serão gerenciados pelo **Node Package Manager** (NPM), então precisaremos instalá-lo. Vamos até o site oficial do [**Node.js**](https://nodejs.org/en/) para instalar sua versão LTS (versão mais estável). Quando instalamos o Node.js, o **NPM** também é instalado no computador como parte do mesmo pacote.
+ - Além disto é interessante ter um bom editor para trabalhar com o código como por exemplo o [**VSCode**](https://code.visualstudio.com/download).
+
+*******************************************************
 
 Sua tarefa como desenvolvedor(a) será criar uma API para um PDV (Frente de Caixa). Esse será um projeto piloto, ou seja, no futuro outras funcionalidades serão implementadas.
 
@@ -17,7 +26,6 @@ Sua tarefa como desenvolvedor(a) será criar uma API para um PDV (Frente de Caix
 **Exemplo:**
 
 ```javascript
-// Corpo da requisição para cadastro de usuário (body)
 {
     "nome": "José",
     "email": "jose@email.com",
@@ -565,13 +573,57 @@ Critérios de aceite:
 
 </details>
 
-## Aulas úteis:
+## 🚀 Como executar o projeto
 
--   [Git e fluxo de trabalho em equipe](https://aulas.cubos.academy/turma/45f23573-f576-4319-ab62-3ad711c11b1d/aulas/523a0925-ef87-4bb5-8a3c-f27b97153d15)
--   [Envio de e-mails](https://aulas.cubos.academy/turma/45f23573-f576-4319-ab62-3ad711c11b1d/aulas/b325b82e-e47e-4a16-9b3e-982b6bd178e4)
--   [Validações e boas práticas](https://aulas.cubos.academy/turma/45f23573-f576-4319-ab62-3ad711c11b1d/aulas/123c52ce-7ffc-4852-befc-f44b115287ac)
--   [Deploy](https://aulas.cubos.academy/turma/45f23573-f576-4319-ab62-3ad711c11b1d/aulas/7c620943-de10-4d1c-8275-594a010ef845)
--   [Revisão de deploy](https://aulas.cubos.academy/turma/45f23573-f576-4319-ab62-3ad711c11b1d/aulas/70e0bf61-98d0-443e-993c-737fa48adb9b)
--   [Upload de arquivos](https://aulas.cubos.academy/turma/45f23573-f576-4319-ab62-3ad711c11b1d/aulas/a7395d61-454c-40b8-b52f-620dbf65c701)
+```bash
+# Abra seu terminal/cmd e clone este repositório
+$ git clone git@github.com:EdframGuerra/api-pdv-frente-de-loja-back-end.git
+
+# Acesse a pasta do projeto
+$ cd desafio-backend-final-dbe-b2b-t03-ifood
+
+# Baixe todas as dependências e pacotes da aplicação
+$ npm install
+
+# Execute a aplicação em modo de desenvolvimento pelo NPM
+$ npm run dev
+
+# A aplicação será aberta na porta:3000 - acesse em seu navegador
+http://localhost:3000
+
+# Configure as variaveis de ambiente
+PORT=
+
+JWT_HASH=
+
+DB_HOST=
+DB_NAME=
+DB_USER=
+DB_PASS=
+DB_PORT=
+DB_CLIENT=
+
+DB_TEST_HOST=
+DB_TEST_NAME=
+DB_TEST_USER=
+DB_TEST_PASS=
+DB_TEST_PORT=
+DB_TEST_CLIENT=
+
+MAIL_HOST=
+MAIL_PORT=
+MAIL_USER=
+MAIL_PASS=
+MAIL_NAME=
+MAIL_FROM=
+
+kEY_ID=
+KEY_NAME=
+APP_KEY=
+
+BACKBLAZE_BUCKET=
+ENDPOINT_S3=
+```
+
 
 ###### tags: `back-end` `módulo 5` `nodeJS` `PostgreSQL` `API REST` `desafio`
